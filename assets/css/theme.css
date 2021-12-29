@@ -198,23 +198,35 @@ background-size:contain;
 }
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: #0a0c0d;
+  color: #fff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 20px;
   transition: 0.4s;
   margin-top: 25px;
   margin-bottom: 10px;
+  font-family: "Mongolian Baiti";
+  box-shadow: 
+  0 0px 7px rgb(228, 224, 29),
+  0 0 5px rgb(231, 85, 27),
+  0 0 2px rgb(231, 85, 27),
+  0 0 3px rgb(231, 85, 27),
+  0 0 2px rgb(231, 85, 27),
+  0 0 2px rgb(231, 85, 27),
+  0 0 2px rgb(231, 85, 27),
+  0 0 5px rgb(231, 85, 27);
+
 
 }
 
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #fff;
+  color: #000;
 }
 
 .accordion:after {
@@ -230,18 +242,44 @@ background-size:contain;
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0px 18px;
   background-color: white;
+  color: #000;
+  font-family: "Mongolian Baiti";
+  font-size: 16px;
+  padding-top: 10px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  box-shadow: 
+  0 0px 7px rgb(29, 228, 55),
+  0 0 5px rgb(29, 228, 55),
+  0 0 2px rgb(29, 228, 55),
+  0 0 3px rgb(29, 228, 55),
+  0 0 2px rgb(29, 228, 55),
+  0 0 2px rgb(29, 228, 55),
+  0 0 2px rgb(29, 228, 55),
+  0 0 5px rgb(29, 228, 55);
+}
+
+#accordianbox{
+  height: 1500px;
+  background-color: #0a0c0d;
 }
 
 
 
-
 @media screen and (max-width: 600px) {
+  
+#accordianbox{
+  height: 1800px;
+  background-color: #0a0c0d;
+}
   .gallery1{
+    width: 150px;
+    height: 150px;
+  }
+  .gallery2{
     width: 150px;
     height: 150px;
   }
