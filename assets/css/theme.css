@@ -6,6 +6,7 @@
   License URI: https://creativecommons.org/licenses/by/4.0/
   Version: 1.0
  */
+ 
  .mylogo{
   width: 200px;
 }
@@ -32,7 +33,7 @@
   margin-bottom: 10px;
 }
 .navlinkimg2{
-  width: 60px;
+  width: 40px;
   height: 25px;
   margin-left: 10px;
   margin-right: 10px;
@@ -50,6 +51,14 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+.discordimg{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
 }
 .welcomimg{
   width: 250px;
@@ -72,8 +81,14 @@ background-size:contain;
   color: white;
   font-size: 20px;
 }
+.mypara2{
+  
+  font-family: "Mongolian Baiti";
+  color: white;
+  font-size: 40px;
+}
 .welcomeshield{
-  border: 2px solid yellow;
+  border: 3px solid white;
   box-sizing: border-box;
   color:yellow;
   width: 350px;
@@ -106,6 +121,55 @@ background-size:contain;
  0 0 10px rgb(231, 85, 27);
   
 }
+.roadmapshield2{
+
+  border-radius: 80%;
+ width: 50%;
+ height: 50%;
+ 
+ box-shadow: 
+ 0 0px 7px #00FFFF,
+ 0 0 10px #00FFFF,
+ 0 0 21px #00FFFF,
+ 0 0 42px #00FFFF,
+ 0 0 40px #00FFFF,
+ 0 0 12px #00FFFF,
+ 0 0 12px #00FFFF,
+ 0 0 10px #00FFFF;
+  
+}
+.roadmapshield3{
+border-radius: 80%;
+ width: 50%;
+ height: 50%;
+ 
+ box-shadow: 
+ 0 0px 7px #00008B,
+ 0 0 10px #00008B,
+ 0 0 21px #00008B,
+ 0 0 42px #00008B,
+ 0 0 40px #00008B,
+ 0 0 12px #00008B,
+ 0 0 12px #00008B,
+ 0 0 10px #00008B;
+  
+}
+.roadmapshield4{
+  border-radius: 80%;
+   width: 50%;
+   height: 50%;
+   
+   box-shadow: 
+   0 0px 7px #0000FF,
+   0 0 10px #0000FF,
+   0 0 21px #0000FF,
+   0 0 42px #0000FF,
+   0 0 40px #0000FF,
+   0 0 12px #0000FF,
+   0 0 12px #0000FF,
+   0 0 10px #0000FF;
+    
+  }
 .roadmapshieldd{
 
   border-radius: 80%;
@@ -227,8 +291,8 @@ background-size:contain;
 }
 
 .active, .accordion:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
 }
 
 .accordion:after {
@@ -254,18 +318,18 @@ background-size:contain;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   box-shadow: 
-  0 0px 7px rgb(29, 228, 55),
-  0 0 5px rgb(29, 228, 55),
-  0 0 2px rgb(29, 228, 55),
-  0 0 3px rgb(29, 228, 55),
-  0 0 2px rgb(29, 228, 55),
-  0 0 2px rgb(29, 228, 55),
-  0 0 2px rgb(29, 228, 55),
-  0 0 5px rgb(29, 228, 55);
+  0 0px 7px cyan,
+  0 0 5px cyan,
+  0 0 2px cyan,
+  0 0 3px cyan,
+  0 0 2px cyan,
+  0 0 2px cyan,
+  0 0 2px cyan,
+  0 0 5px cyan;
 }
 
 #accordianbox{
-  height: 1800px;
+  height: 2500px;
   background-color: #0a0c0d;
 }
 
