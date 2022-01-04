@@ -70,8 +70,16 @@
   height: 60px;
   margin-top: 20px;
 }
+
+#texture{
+  background-image: url('../img/mytexture.png');
+  height: 100%;
+  background-repeat: repeat-y;
+
+margin-top: 80px;
+}
 #bodybg{
-  background-image: url('../img/bg.png');
+  background-image: url('../img/half.png');
   height: 100%;
   background-repeat: no-repeat;
 background-size:contain;
@@ -264,8 +272,8 @@ border-radius: 80%;
 }
 
 .accordion {
-  background-color: #0a0c0d;
   color: #fff;
+  background-color: #000;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -330,7 +338,6 @@ border-radius: 80%;
 
 #accordianbox{
   height: 2500px;
-  background-image: url('../img/bg3.png');
 }
 
 .footerlogoimg{
@@ -353,8 +360,16 @@ border-radius: 80%;
   width: 100px;
 
 }
+#info{
+  background: rgb(0, 0, 0,0.3);
+}
 
 @media screen and (max-width: 600px) {
+  #twenty{
+    height: 80px;
+    width: 80px;
+  
+  }
   #bodybg{
     background-image: url('../img/bg.png');
     height: 100%;
@@ -393,7 +408,6 @@ border-radius: 80%;
   }
 #accordianbox{
   height: 2300px;
-  background-color: #0a0c0d;
 }
   .gallery1{
     width: 150px;
