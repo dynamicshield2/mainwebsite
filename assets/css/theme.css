@@ -298,7 +298,17 @@
 .welcomimg {
   margin-top: 350px;
 }
+#dynamic {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 @media screen and (max-width: 600px) {
+  #dynamic {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
   .welcomimg {
     margin-top: 320px !important;
   }
