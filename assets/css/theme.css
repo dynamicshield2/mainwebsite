@@ -305,23 +305,11 @@
     font-size: 30px;
     color: white;
   }
-  #texture {
-    background-image: url("../img/mytexture.png");
-    height: 100%;
-    width: 100%;
-    background-repeat: repeat-y;
-
-    margin-top: 80px;
-  }
   #bodybg {
-    background-image: url("../img/bg.png");
+    background-image: url("../img/long.jpg");
     height: 100%;
-    width: 100%;
-    margin: 0;
-    overflow: auto;
-    padding: 0;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
   }
   .roadmapimg {
     width: 250px;
