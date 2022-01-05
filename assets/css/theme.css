@@ -74,6 +74,7 @@
 #texture{
   background-image: url('../img/mytexture.png');
   height: 100%;
+  width:100%;
   background-repeat: repeat-y;
 
 margin-top: 80px;
@@ -365,6 +366,14 @@ border-radius: 80%;
 }
 
 @media screen and (max-width: 600px) {
+  #texture{
+    background-image: url('../img/mytexture.png');
+    height: 100%;
+    width:100%;
+    background-repeat: repeat-y;
+  
+  margin-top: 80px;
+  }
   #twenty{
     height: 80px;
     width: 80px;
@@ -373,6 +382,7 @@ border-radius: 80%;
   #bodybg{
     background-image: url('../img/bg.png');
     height: 100%;
+    width: 100%;
     margin: 0;
     overflow: auto;
     padding: 0;
