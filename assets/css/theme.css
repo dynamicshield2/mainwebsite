@@ -12,6 +12,27 @@
   src: url(../fonts/Headliner.ttf);
 }
 
+.timer{
+  margin-top: 380px;
+}
+.mintstyle{
+  font-family: days;
+  color: #f7c10f;
+  font-size: 48px;
+}
+.parastyle{
+  text-shadow: 0 0 15px #f7c10f;
+ color: white;
+ font-family: days;
+ font-size: 50px;
+}
+.timestyle{
+  text-shadow: 0 0 15px #00aced;
+ color: white;
+ font-family: days;
+ font-size: 30px;
+}
+
 .mylogo {
   width: 200px;
 }
@@ -67,7 +88,7 @@
 .welcomimg {
   width: 250px;
   height: 60px;
-  margin-top: 380px;
+  margin-top: 20px;
 }
 .roadmapimg {
   width: 250px;
@@ -295,22 +316,36 @@
   font-size: 40px;
   color: white;
 }
-.welcomimg {
-  margin-top: 350px;
-}
 #dynamic {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 40px;
 }
 @media screen and (max-width: 600px) {
+  .timer{
+    margin-top: 350px;
+  }
+  .mintstyle{
+    font-family: days;
+    color:#f7c10f ;
+    font-size: 38px;
+  }
+  .parastyle{
+    text-shadow: 0 0 15px #f7c10f;
+   color: white;
+   font-family: days;
+   font-size: 40px;
+  }
+  .timestyle{
+    text-shadow: 0 0 15px #00aced;
+   color: white;
+   font-family: days;
+   font-size: 20px;
+  }
   #dynamic {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 40px;
-  }
-  .welcomimg {
-    margin-top: 320px !important;
+    margin-bottom: 0px;
   }
   .mytwenty {
     font-family: "headliner";
@@ -372,7 +407,6 @@
   .welcomimg {
     width: 150px;
     height: 40px;
-    margin-top: 100px;
   }
 
   .roadmapimg {
